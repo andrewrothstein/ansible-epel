@@ -1,4 +1,4 @@
 ---
 - name: (CentOS) install EPEL
   when: ansible_distribution == 'CentOS'
-  yum: name='epel-release' state=latest
+  package: name='epel-release' state=present
