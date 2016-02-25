@@ -1,4 +1,4 @@
 ---
 - name: (CentOS) install EPEL
-  when: ansible_distribution == 'CentOS'
+  when: ansible_distribution in ['CentOS','RedHat']
   package: name='epel-release' state=present
