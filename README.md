@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-epel.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-epel)
 andrewrothstein.epel
 ===========================
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-epel.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-epel)
 
 A role for installing [Extra Packages For Enterprise Linux](https://fedoraproject.org/wiki/EPEL)
 
