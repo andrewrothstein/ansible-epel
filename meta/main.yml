@@ -15,9 +15,8 @@ galaxy_info:
         - 23
         - 24
         - 25
-        
+
   galaxy_tags:
     - development
 
 dependencies: []
-  
