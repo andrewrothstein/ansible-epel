@@ -21,6 +21,9 @@ env:
   - OS=fedora_23
   - OS=fedora_24
   - OS=fedora_25
+  - OS=fedora_26
+  - OS=fedora_27
+  - OS=fedora_28
 
 before_install:
   - pip install ansible-galaxy-local-deps dcb==0.0.14

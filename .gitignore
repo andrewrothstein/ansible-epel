@@ -1,5 +1,3 @@
-.vagrant/
-.terraform
-.DS_Store
-.kitchen/
 **~
+Dockerfile.*
+requirements.yml
