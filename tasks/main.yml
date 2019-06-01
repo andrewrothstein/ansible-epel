@@ -6,3 +6,7 @@
   package:
     name: epel-release
     state: present
+  register: install_epel
+  until: install_epel is success
+  retries: 10
+  delay: 2
