@@ -1,0 +1,22 @@
+---
+- name: look for epel.repo
+  become: yes
+  become_user: root
+  stat:
+    path: '{{ epel_repofile }}'
+  changed_when: False
+  register: epel_repofile_stat
+- when: not epel_repofile_stat.stat.exists
+  block:
+    - name: install EPEL...
+      become: yes
+      become_user: root
+      yum:
+        name: '{{ epel_url }}'
+        state: present
+    - name: trust EPEL GPG key...
+      become: yes
+      become_user: root
+      rpm_key:
+        key: '{{ epel_gpg_key }}'
+        state: present

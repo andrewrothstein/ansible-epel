@@ -1,0 +1,4 @@
+---
+epel_mirror: https://dl.fedoraproject.org/pub/epel
+epel_rpm_gpg_keydir: /etc/pki/rpm-gpg
+epel_repofile: /etc/yum.repos.d/epel.repo

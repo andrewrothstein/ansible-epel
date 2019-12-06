@@ -10,15 +10,7 @@ galaxy_info:
     - name: EL
       versions:
         - 7
-    - name: Fedora
-      versions:
-        - 23
-        - 24
-        - 25
-        - 26
-        - 27
-        - 28
-        - 29
+        - 8
 
   galaxy_tags:
     - development

@@ -1,8 +1,4 @@
 ---
 - name: (CentOS/RedHat) install EPEL
-  become: yes
-  become_user: root
   when: ansible_distribution in ['CentOS','RedHat']
-  package:
-    name: epel-release
-    state: present
+  include_tasks: epel-install.yml

@@ -2,3 +2,10 @@
 - hosts: all
   roles:
     - role: '{{ playbook_dir }}'
+  tasks:
+    - name: install an EPEL package
+      become: yes
+      become_user: root
+      package:
+        name: tor
+        state: present
