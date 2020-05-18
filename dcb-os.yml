@@ -1,13 +1,6 @@
 - centos_7
 - centos_8
-- fedora_23
-- fedora_24
-- fedora_25
-- fedora_26
-- fedora_27
-- fedora_28
-- fedora_29
-- fedora_30
 - fedora_31
 - fedora_32
 - ubi8_8.0
+- ubi8_8.1
