@@ -1,4 +1,4 @@
 ---
 - name: (CentOS/RedHat) install EPEL
-  when: ansible_distribution in ['CentOS','RedHat']
+  when: ansible_distribution in ['CentOS','RedHat','Rocky']
   include_tasks: epel-install.yml
