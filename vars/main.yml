@@ -1,3 +1,6 @@
 ---
+# https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 epel_url: '{{ epel_mirror }}/epel-release-latest-{{ ansible_distribution_major_version }}.noarch.rpm'
-epel_gpg_key: '{{ epel_rpm_gpg_keydir }}/RPM-GPG-KEY-EPEL-{{ ansible_distribution_major_version }}'
+
+# https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-8
+epel_gpg_key: '{{ epel_mirror }}/RPM-GPG-KEY-EPEL-{{ ansible_distribution_major_version }}'
