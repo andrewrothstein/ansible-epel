@@ -9,6 +9,7 @@ jobs:
         os:
           - centos_8
           - fedora_34
+          - rockylinux_8.4
         python-version:
           - 3.9
     steps:
