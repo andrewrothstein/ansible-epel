@@ -1,6 +1,6 @@
 andrewrothstein.epel
 ===========================
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-epel.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-epel)
+![Build Status](https://github.com/andrewrothstein/ansible-epel/actions/workflows/build.yml/badge.svg)
 
 A role for installing [Extra Packages For Enterprise Linux](https://fedoraproject.org/wiki/EPEL)
 
