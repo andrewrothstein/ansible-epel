@@ -10,8 +10,12 @@ galaxy_info:
     - name: EL
       versions:
         - 8
-
+    - name: Fedora
+      versions:
+        - 35
+        - 36
   galaxy_tags:
     - development
+  role_name: epel
 
 dependencies: []
