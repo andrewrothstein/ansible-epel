@@ -1,0 +1,18 @@
+[
+  {
+    "OS": "fedora",
+    "OS_VER": "38"
+  },
+  {
+    "OS": "fedora",
+    "OS_VER": "39"
+  },
+  {
+    "OS": "rockylinux",
+    "OS_VER": "8"
+  },
+  {
+    "OS": "rockylinux",
+    "OS_VER": "9"
+  }
+]
