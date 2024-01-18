@@ -8,6 +8,6 @@
     - name: Install an EPEL hosted package
       become: true
       become_user: root
-      package:
+      ansible.builtin.package:
         name: tor
         state: present
