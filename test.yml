@@ -1,9 +1,11 @@
 ---
-- hosts: all
-  roles:
-    - role: '{{ playbook_dir }}'
+- name: Test andrewrothstein.epel
+  hosts: all
   tasks:
-    - name: install an EPEL package
+    - name: Installing andrewrothstein.epel
+      ansible.builtin.include_role:
+        name: '{{ playbook_dir }}'
+    - name: Install an EPEL hosted package
       become: true
       become_user: root
       package:

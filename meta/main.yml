@@ -1,19 +1,20 @@
 ---
 galaxy_info:
   author: Andrew Rothstein
-  description: configures EPEL
   company: BlackRock
+  description: configures EPEL
+  galaxy_tags:
+    - development
   license: MIT
-  min_ansible_version: 2.0
+  min_ansible_version: '2.0'
+  namespace: andrewrothstein
   platforms:
     - name: EL
       versions:
-        - 8
-        - 9
+        - '8'
+        - '9'
     - name: Fedora
       versions:
-        - 38
-        - 39
-  galaxy_tags:
-    - development
+        - '38'
+        - '39'
   role_name: epel

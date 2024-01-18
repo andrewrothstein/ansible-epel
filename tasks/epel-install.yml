@@ -1,22 +1,23 @@
 ---
-- name: look for epel.repo
+- name: Look for epel.repo
   become: true
   become_user: root
-  stat:
+  ansible.builtin.stat:
     path: '{{ epel_repofile }}'
   changed_when: false
   register: epel_repofile_stat
-- when: not epel_repofile_stat.stat.exists
+- name: Trust and add EPEL pkg
+  when: not epel_repofile_stat.stat.exists
   block:
-    - name: trust EPEL GPG key...
+    - name: Trust EPEL GPG key...
       become: true
       become_user: root
-      rpm_key:
+      ansible.builtin.rpm_key:
         key: '{{ epel_gpg_key }}'
         state: present
-    - name: install EPEL...
+    - name: Install EPEL...
       become: true
       become_user: root
-      yum:
+      ansible.builtin.yum:
         name: '{{ epel_url }}'
         state: present
