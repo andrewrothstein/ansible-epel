@@ -18,6 +18,6 @@
     - name: Install EPEL...
       become: true
       become_user: root
-      ansible.builtin.yum:
+      ansible.builtin.dnf:
         name: '{{ epel_url }}'
         state: present
