@@ -15,6 +15,6 @@ galaxy_info:
         - '9'
     - name: Fedora
       versions:
-        - '39'
         - '40'
+        - '41'
   role_name: epel
