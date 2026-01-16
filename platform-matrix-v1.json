@@ -1,18 +1,32 @@
 [
   {
     "OS": "fedora",
-    "OS_VER": "40"
+    "OS_VER": "43",
+    "platforms": "linux/amd64,linux/arm64"
   },
   {
     "OS": "fedora",
-    "OS_VER": "41"
+    "OS_VER": "44",
+    "platforms": "linux/amd64,linux/arm64"
   },
   {
     "OS": "rockylinux",
-    "OS_VER": "8"
+    "OS_VER": "9",
+    "platforms": "linux/amd64,linux/arm64"
   },
   {
     "OS": "rockylinux",
-    "OS_VER": "9"
-  }
+    "OS_VER": "10",
+    "platforms": "linux/amd64,linux/arm64"
+  },
+  {
+    "OS": "ubi",
+    "OS_VER": "9",
+    "platforms": "linux/amd64,linux/arm64"
+  },
+  {
+    "OS": "ubi",
+    "OS_VER": "10",
+    "platforms": "linux/amd64,linux/arm64"
+  },
 ]
