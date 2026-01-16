@@ -28,5 +28,5 @@
     "OS": "ubi",
     "OS_VER": "10",
     "platforms": "linux/amd64,linux/arm64"
-  },
+  }
 ]
