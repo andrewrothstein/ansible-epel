@@ -1,4 +1,7 @@
 ---
+- name: Installing andrewrothstein.gpg
+  ansible.builtin.include_role:
+    name: andrewrothstein.gpg
 - name: Look for epel.repo
   become: true
   become_user: root
